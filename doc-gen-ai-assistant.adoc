@@ -1,0 +1,97 @@
+---
+sidebar: sidebar 
+permalink: doc-gen-ai-assistant.html 
+keywords:  
+summary: O DOC é o nosso assistente generativo com IA no docs.NetApp.com. O DOC foi concebido para responder a perguntas sobre os produtos NetApp. Por exemplo, o Doc pode responder a perguntas sobre recursos de eficiência de storage da NetApp ou práticas recomendadas de backup e recuperação para ambientes multicloud. 
+---
+= NetApp generative AI Assistant termos de uso
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O DOC é o nosso assistente generativo com IA no docs.NetApp.com. O DOC foi concebido para responder a perguntas sobre os produtos NetApp. Por exemplo, o Doc pode responder a perguntas sobre recursos de eficiência de storage da NetApp ou práticas recomendadas de backup e recuperação para ambientes multicloud.
+
+Esta versão Beta do Doc cria conteúdo gerado por algoritmos que pode conter erros ou imprecisões. Todo o conteúdo gerado deve ser usado apenas como ponto de partida. Você deve sempre verificar as respostas do Doc consultando a documentação oficial do produto da NetApp. Qualquer dependência das respostas geradas pelo Doc é por sua conta e risco, e a NetApp não é responsável por quaisquer problemas ou dificuldades que possam ocorrer usando apenas as respostas geradas pelo Doc.
+
+
+
+== Condições
+
+Ao usar o Doc, você concorda em cumprir as seguintes regras e estipulações ao gerar conteúdo e respostas. O não cumprimento destes termos pode resultar no bloqueio do uso do Doc.
+
+* Não tente usar o Doc para produzir conteúdo que possa causar danos, abuso, violência ou engano.
+* Não tente envolver o Doc em conversas que estejam fora do escopo de seu propósito pretendido ou para obter respostas para perguntas que não são sobre produtos NetApp.
+
+
+
+
+== Recursos
+
+* Doc não é um elefante, mas tem uma memória bastante.
++
+Na maioria das vezes, Doc lembra e presta atenção ao que você está discutindo. Se o Doc perder o controle de uma conversa, você pode iniciar uma nova na mesma sessão de chat.
+
+* Doc é um leitor ávido.
++
+Sempre que nossos documentos forem publicados no docs.NetApp.com (e isso acontece muito), o Doc lê e será capaz de referenciá-los para gerar suas respostas. É incrível a rapidez com que o Doc aprende.
+
+* O DOC é consultivo.
++
+O DOC oferece sugestões para perguntas que você pode querer fazer além das que você fez.
+
+* O DOC é comunicativo.
++
+O DOC compartilha insights sobre como ele gera suas respostas, dando a você a oportunidade de reformular suas perguntas.
+
+
+
+
+
+== Limitações
+
+* Se um produto NetApp tiver várias versões de documentação, o Doc apenas se refere à versão mais recente para ajudar a gerar respostas.
+* Durante o Beta, o Doc não se refere a toda a documentação de todos os produtos NetApp. Doc refere-se apenas a um subconjunto de documentação, incluindo, mas não limitado a documentos ONTAP e BlueXP  para ajudar a gerar respostas.
+* Embora o Doc possa fornecer respostas em outros idiomas, o Doc não leu as versões não inglesas dos documentos do produto NetApp. Para garantir que você tenha as informações mais precisas possíveis, sempre verifique as respostas do Doc em inglês.
+
+
+
+
+== Dicas
+
+* Doc adora perguntas específicas.
++
+O DOC fornece respostas melhores quando você cita explicitamente um nome de produto, interface (por exemplo, GUI ou API) e versão. Por exemplo: _Quais etapas devo seguir no Gerenciador de sistemas para atualizar do ONTAP 9.8 para o ONTAP 9.12,1?_
+
+* Precisa aprender a fazer alguma coisa?
++
+Considere pedir ao Doc para incluir os passos. Em vez de perguntar Doc _como faço para instalar o conetor BlueXP  sem internet?_ Tente perguntar _que passos devo seguir para instalar o conetor BlueXP  sem internet?_
+
+* Faça perguntas simples.
++
+Se você precisar fazer uma pergunta complexa, divida-a em perguntas menores (isso às vezes é referido como questões de encadeamento). Durante uma sessão de chat, Doc presta atenção e lembra as perguntas que você faz.
+
++
+Em vez de perguntar Doc _como faço para configurar a proteção contra ransomware e os horários de backup no BlueXP ?_ Tente _quais são as etapas para configurar a proteção contra ransomware no BlueXP ?_ e _quais são as etapas para configurar os horários de backup no BlueXP ?_
+
+* Use aspas para esclarecer quando você quer que o Doc preste atenção às frases com várias palavras que o Doc pode interpretar mal.
++
+Por exemplo, se você perguntar ao Doc _como a eficiência de armazenamento é calculada no ONTAP?_, é possível que o Doc pense que você está perguntando sobre armazenamento e eficiência como duas palavras não relacionadas. Para se certificar de que o Doc entende que você está perguntando sobre (o conceito chamado) eficiência de armazenamento, inclua essa frase dentro de aspas como assim: _Como é calculada a "eficiência de armazenamento" no ONTAP?_
+
++
+Se você estivesse tendo uma conversa com um humano, você provavelmente enfatizaria a frase, possivelmente usaria citações aéreas, ou gesto de alguma forma que torna a distinção óbvia. Pense nas aspas duplas como um gesto que ajuda Doc a entender o que você está falando.
+
+* Depois de responder, o Doc fornece insights sobre como ele gerou sua resposta. Fica curioso.
++
+Tente diferentes padrões e abordagens para fazer perguntas. Se você não conseguir o resultado desejado, tente reformular sua pergunta.
+
+
+
+
+
+== Feedback
+
+Estamos trabalhando para melhorar continuamente o Doc. Por favor, envie-nos feedback dentro da janela de bate-papo do Doc. Deixe-nos saber se as respostas do Doc são precisas e úteis ou se estão incompletas ou de alguma forma insuficientes. Você também pode enviar um e-mail para NetApp.com[Contact US] se você tiver alguma dúvida ou preocupação sobre as capacidades ou respostas do Doc.

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="7fdfed3604c999e7ce591c35bf9ca1e3" category="summary">O DOC é o nosso assistente generativo com IA no docs.NetApp.com. O DOC foi concebido para responder a perguntas sobre os produtos NetApp. Por exemplo, o Doc pode responder a perguntas sobre recursos de eficiência de storage da NetApp ou práticas recomendadas de backup e recuperação para ambientes multicloud.</block>
+  <block id="47fcebf3dc368732bbe8a2eaabac815e" category="doc">NetApp generative AI Assistant termos de uso</block>
+  <block id="7cfd7e3238c2a852ea2f82c03119feb6" category="paragraph">Esta versão Beta do Doc cria conteúdo gerado por algoritmos que pode conter erros ou imprecisões. Todo o conteúdo gerado deve ser usado apenas como ponto de partida. Você deve sempre verificar as respostas do Doc consultando a documentação oficial do produto da NetApp. Qualquer dependência das respostas geradas pelo Doc é por sua conta e risco, e a NetApp não é responsável por quaisquer problemas ou dificuldades que possam ocorrer usando apenas as respostas geradas pelo Doc.</block>
+  <block id="229eb04083e06f419f9ac494329f957d" category="section-title">Condições</block>
+  <block id="ed9f05b554b94c74deffa021f0c45818" category="paragraph">Ao usar o Doc, você concorda em cumprir as seguintes regras e estipulações ao gerar conteúdo e respostas. O não cumprimento destes termos pode resultar no bloqueio do uso do Doc.</block>
+  <block id="1492b263677041177b75767d2dbc780b" category="list-text">Não tente usar o Doc para produzir conteúdo que possa causar danos, abuso, violência ou engano.</block>
+  <block id="977674521e01e951ee7b77e735caa1d1" category="list-text">Não tente envolver o Doc em conversas que estejam fora do escopo de seu propósito pretendido ou para obter respostas para perguntas que não são sobre produtos NetApp.</block>
+  <block id="82ec2cd6fda87713f588da75c3b1d0ed" category="section-title">Recursos</block>
+  <block id="a8d0ffdd3caa441024af945401c069ea" category="list-text">Doc não é um elefante, mas tem uma memória bastante.</block>
+  <block id="82ccd5b48bcf83ad98f41b4183b07184" category="paragraph">Na maioria das vezes, Doc lembra e presta atenção ao que você está discutindo. Se o Doc perder o controle de uma conversa, você pode iniciar uma nova na mesma sessão de chat.</block>
+  <block id="bfef452160ef7b86bf242e0d2bdd357c" category="list-text">Doc é um leitor ávido.</block>
+  <block id="0e355d29fd3887f49661d3802e1ea25a" category="paragraph">Sempre que nossos documentos forem publicados no docs.NetApp.com (e isso acontece muito), o Doc lê e será capaz de referenciá-los para gerar suas respostas. É incrível a rapidez com que o Doc aprende.</block>
+  <block id="2a7bcb95eb0d0f227b37fb6ec8680c19" category="list-text">O DOC é consultivo.</block>
+  <block id="61f8e1f531f123a4df97c1f7782918c8" category="paragraph">O DOC oferece sugestões para perguntas que você pode querer fazer além das que você fez.</block>
+  <block id="1408f478bd58d496e88744dadf1a02b1" category="list-text">O DOC é comunicativo.</block>
+  <block id="d0ce116c1cb9fcbf3cb66f15552cce02" category="paragraph">O DOC compartilha insights sobre como ele gera suas respostas, dando a você a oportunidade de reformular suas perguntas.</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">Limitações</block>
+  <block id="8c9258587429e6e6438d30caf456ff3a" category="list-text">Se um produto NetApp tiver várias versões de documentação, o Doc apenas se refere à versão mais recente para ajudar a gerar respostas.</block>
+  <block id="ea0bceffd7bdc127834a19dba6a4000c" category="list-text">Durante o Beta, o Doc não se refere a toda a documentação de todos os produtos NetApp. Doc refere-se apenas a um subconjunto de documentação, incluindo, mas não limitado a documentos ONTAP e BlueXP  para ajudar a gerar respostas.</block>
+  <block id="4634b38da377884324963fff9cf5bd2f" category="list-text">Embora o Doc possa fornecer respostas em outros idiomas, o Doc não leu as versões não inglesas dos documentos do produto NetApp. Para garantir que você tenha as informações mais precisas possíveis, sempre verifique as respostas do Doc em inglês.</block>
+  <block id="a0d4cc0f54602c3f247c72f15a7d2dbf" category="section-title">Dicas</block>
+  <block id="55014c9dfa0b6fb12f159a872f65dc2a" category="list-text">Doc adora perguntas específicas.</block>
+  <block id="39af031d661a8d60c6eb934145542f88" category="paragraph">O DOC fornece respostas melhores quando você cita explicitamente um nome de produto, interface (por exemplo, GUI ou API) e versão. Por exemplo: _Quais etapas devo seguir no Gerenciador de sistemas para atualizar do ONTAP 9.8 para o ONTAP 9.12,1?_</block>
+  <block id="ae5ba765952a9c408e513612743afd2d" category="list-text">Precisa aprender a fazer alguma coisa?</block>
+  <block id="da5f06b84806d0f43edbcdf8ab9140e3" category="paragraph">Considere pedir ao Doc para incluir os passos. Em vez de perguntar Doc _como faço para instalar o conetor BlueXP  sem internet?_ Tente perguntar _que passos devo seguir para instalar o conetor BlueXP  sem internet?_</block>
+  <block id="1fb87efde9d27c81852aef738416fea5" category="list-text">Faça perguntas simples.</block>
+  <block id="56a8772e302d94cfd17246eecc01b02a" category="paragraph">Se você precisar fazer uma pergunta complexa, divida-a em perguntas menores (isso às vezes é referido como questões de encadeamento). Durante uma sessão de chat, Doc presta atenção e lembra as perguntas que você faz.</block>
+  <block id="546f372fd0732757db387209bc7e5e4e" category="paragraph">Em vez de perguntar Doc _como faço para configurar a proteção contra ransomware e os horários de backup no BlueXP ?_ Tente _quais são as etapas para configurar a proteção contra ransomware no BlueXP ?_ e _quais são as etapas para configurar os horários de backup no BlueXP ?_</block>
+  <block id="f2e25aa9036d6798312b7ccb5891aa13" category="list-text">Use aspas para esclarecer quando você quer que o Doc preste atenção às frases com várias palavras que o Doc pode interpretar mal.</block>
+  <block id="c2831909c9ecc0befad064d2ee8566ff" category="paragraph">Por exemplo, se você perguntar ao Doc _como a eficiência de armazenamento é calculada no ONTAP?_, é possível que o Doc pense que você está perguntando sobre armazenamento e eficiência como duas palavras não relacionadas. Para se certificar de que o Doc entende que você está perguntando sobre (o conceito chamado) eficiência de armazenamento, inclua essa frase dentro de aspas como assim: _Como é calculada a "eficiência de armazenamento" no ONTAP?_</block>
+  <block id="af86dd4b829e0feb137a94ed8e9ec7eb" category="paragraph">Se você estivesse tendo uma conversa com um humano, você provavelmente enfatizaria a frase, possivelmente usaria citações aéreas, ou gesto de alguma forma que torna a distinção óbvia. Pense nas aspas duplas como um gesto que ajuda Doc a entender o que você está falando.</block>
+  <block id="e423d49b947f8deb0f39c1fc9aa13006" category="list-text">Depois de responder, o Doc fornece insights sobre como ele gerou sua resposta. Fica curioso.</block>
+  <block id="4ad038ec67eddd3dd262b131a2914027" category="paragraph">Tente diferentes padrões e abordagens para fazer perguntas. Se você não conseguir o resultado desejado, tente reformular sua pergunta.</block>
+  <block id="bea4c2c8eb82d05891ddd71584881b56" category="section-title">Feedback</block>
+  <block id="39f370d8d247a2c0eb7047953bdd4740" category="paragraph">Estamos trabalhando para melhorar continuamente o Doc. Por favor, envie-nos feedback dentro da janela de bate-papo do Doc. Deixe-nos saber se as respostas do Doc são precisas e úteis ou se estão incompletas ou de alguma forma insuficientes. Você também pode enviar um e-mail para NetApp.com[Contact US] se você tiver alguma dúvida ou preocupação sobre as capacidades ou respostas do Doc.</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="76461c921fd953874545c28924c497a5" category="doc">Sobre os sites docs.NetApp.com</block>
+  <block id="55ff05b2fa7e1012dea362f024c523d4" category="video-title">Visita ao local</block>
+  <block id="f24f9b19509f19811927c2c5108eb69f" category="example-title">Transcrição</block>
+  <block id="ab0c8dbd5eef82178b156e6a11208519" category="list-text">0:01</block>
+  <block id="4ade6453893cfbe2522908af64833211" category="list-text">Olá. Este é o Ben da equipe docs.NetApp.com. Neste vídeo, veremos os recursos e funções disponíveis no docs.NetApp.com para ajudá-lo a aproveitar ao máximo sua experiência de visualização de conteúdo.</block>
+  <block id="3c288a98493080fb5576125268a96a7a" category="list-text">0:12</block>
+  <block id="0e211f38bb42111667c024142b66f04f" category="list-text">Vamos começar por encontrar o conteúdo que você está procurando. Depois de inserir um site de documentos, você pode usar o lado esquerdo do site para navegar.</block>
+  <block id="6749c9108af17d9cba1d58f7f4372480" category="list-text">0:20</block>
+  <block id="8dccc52d59eeb736d56dd1b6b44802c9" category="list-text">Se várias versões da documentação estiverem disponíveis, você poderá selecionar os documentos para a versão do produto que estiver usando.</block>
+  <block id="f27bdb420dd5fcb57008a435b22092aa" category="list-text">0:28</block>
+  <block id="dd7e3c5a91863520509b8bd47b5fb184" category="list-text">Use a caixa de pesquisa para encontrar conteúdo em um site de documentos. Por exemplo, eu quero aprender como a criptografia de volume funciona.</block>
+  <block id="72116ebe035ce7c054a6b42d524f70c7" category="list-text">0:36</block>
+  <block id="8e04744bf4ce3a99c048afd6dcc9f44b" category="list-text">Se você preferir navegar nos documentos, você pode usar o índice, que é organizado em agrupamentos lógicos como começar e usar o produto.</block>
+  <block id="a71e1fa92b11b6b44b0f6485b35e5a7b" category="list-text">0:45</block>
+  <block id="154b5fdb7571773817017921e46ae33d" category="list-text">Se você quiser ir para outro site de documentação, você pode usar o breadcrumbs para navegar em torno de docs.NetApp.com.</block>
+  <block id="d118e8f1307d3c909d5befd2bbecf061" category="list-text">0:50</block>
+  <block id="31278ba45f6e1d30f6f231f3e5f1a36d" category="list-text">Depois de encontrar o conteúdo que você está procurando, alguns recursos principais estão disponíveis para ajudá-lo a interagir com o conteúdo.</block>
+  <block id="9f0b04f5c5e91198f90bcd2bd46153f0" category="list-text">0:58</block>
+  <block id="6cb3e320d779a4a61d2879df5bd84e9f" category="list-text">A maioria dos sites de documentos estão disponíveis em vários idiomas diferentes para que você possa ler os documentos em seu idioma preferido.</block>
+  <block id="63e443b59148b11d06c60f6a5e52d8f5" category="list-text">1:05</block>
+  <block id="1688c88768c109f923e65f29244c8d09" category="list-text">Se uma página tem várias seções, você pode usar os links "nesta página" para ir diretamente para o conteúdo que você está procurando. Os links também identificam onde você está na página, o que pode ajudá-lo a seguir enquanto você rola.</block>
+  <block id="f2e804e45e1dab1163588130bcd0d13e" category="list-text">1:20</block>
+  <block id="731678ea16207e95dd4c230e861e27ce" category="list-text">Para se concentrar apenas no conteúdo em si, você pode colapsar as barras laterais esquerda e direita. Quando terminar, expanda-os para ver os controlos de navegação novamente.</block>
+  <block id="4ef6cf20f8916d722987b6cd84691e03" category="list-text">1:33</block>
+  <block id="bc382af4f7df607310494c6a0db0da6d" category="list-text">Se você precisar ler os documentos off-line, você pode baixar um PDF de todo o site de documentos ou de seções individuais dentro do site.</block>
+  <block id="7d558d84e6be8ad92b5a6d4f9b67513e" category="list-text">1:41</block>
+  <block id="11a4aef0f88e6d42f746f1e3807e1f0e" category="list-text">A documentação do NetApp é de código aberto e projetada para permitir contribuições da comunidade usando uma conta do GitHub. Envie seu feedback para solicitar uma atualização de documentação ou edite diretamente o conteúdo, que é enviado para um lead de conteúdo do NetApp antes de mesclar.</block>
+  <block id="ed014929fa6d1e2a7b2cd335f40c42b6" category="list-text">1:59</block>
+  <block id="cae12efe5fddc5b227738098a513f050" category="list-text">Nos sites de documentos de alguns de nossos serviços de nuvem, você pode ver uma opção de provedor de nuvem que permite filtrar os documentos para um provedor de nuvem específico. Por exemplo, se você selecionar o Microsoft Azure, verá apenas o conteúdo que se aplica ao Azure. O conteúdo para outros provedores de nuvem não aparecerá.</block>
+  <block id="371c69895ec495bb0ba900238d0dfde0" category="list-text">2:18</block>
+  <block id="de57fe86208320d05e4f48a11939d075" category="list-text">Como você pode acessar nosso conteúdo a partir de um tablet, dispositivo móvel ou desktop, usamos um layout responsivo para garantir que nossos documentos tenham boa aparência em qualquer dispositivo.</block>
+  <block id="47a2020d68d5f7d8f999b3bf89a03c1a" category="list-text">2:28</block>
+  <block id="c7f671298576d5432049913e0335f76f" category="list-text">E é isso. Esperamos que você goste de usar esses recursos e obrigado por fazer parte de nossa comunidade de conteúdo.</block>
+  <block id="a415b3159b192a5228f36d0322ee9f1d" category="doc">Sobre o docs.NetApp.com</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legais</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Avisos legais fornecem acesso a declarações de direitos autorais, marcas registradas, patentes e muito mais.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Direitos de autor</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marcas comerciais</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, o logotipo DA NetApp e as marcas listadas na página de marcas comerciais da NetApp são marcas comerciais da NetApp, Inc. Outros nomes de produtos e empresas podem ser marcas comerciais de seus respetivos proprietários.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Patentes</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Uma lista atual de patentes de propriedade da NetApp pode ser encontrada em:</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Política de privacidade</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código aberto</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Os arquivos de aviso fornecem informações sobre direitos autorais de terceiros e licenças usadas no software NetApp.</block>
+  <block id="4fbdf2eea8c892890a6818b154ed392b" category="sidebar">Sobre os sites</block>
+  <block id="043395774d0b5e5fa6d8e5cd9b8ce5a2" category="sidebar">Sobre o Doc (assistente com IA)</block>
+</blocks>

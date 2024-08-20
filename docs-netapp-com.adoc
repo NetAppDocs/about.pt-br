@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: docs-netapp-com.html 
+keywords:  
+summary:  
+---
+= Sobre os sites docs.NetApp.com
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+.Visita ao local
+video::77a636ba-4202-45bb-9e47-b08a01138502[panopto]
+.Transcrição
+[%collapsible]
+====
+0:01:: Olá. Este é o Ben da equipe docs.NetApp.com. Neste vídeo, veremos os recursos e funções disponíveis no docs.NetApp.com para ajudá-lo a aproveitar ao máximo sua experiência de visualização de conteúdo.
+0:12:: Vamos começar por encontrar o conteúdo que você está procurando. Depois de inserir um site de documentos, você pode usar o lado esquerdo do site para navegar.
+0:20:: Se várias versões da documentação estiverem disponíveis, você poderá selecionar os documentos para a versão do produto que estiver usando.
+0:28:: Use a caixa de pesquisa para encontrar conteúdo em um site de documentos. Por exemplo, eu quero aprender como a criptografia de volume funciona.
+0:36:: Se você preferir navegar nos documentos, você pode usar o índice, que é organizado em agrupamentos lógicos como começar e usar o produto.
+0:45:: Se você quiser ir para outro site de documentação, você pode usar o breadcrumbs para navegar em torno de docs.NetApp.com.
+0:50:: Depois de encontrar o conteúdo que você está procurando, alguns recursos principais estão disponíveis para ajudá-lo a interagir com o conteúdo.
+0:58:: A maioria dos sites de documentos estão disponíveis em vários idiomas diferentes para que você possa ler os documentos em seu idioma preferido.
+1:05:: Se uma página tem várias seções, você pode usar os links "nesta página" para ir diretamente para o conteúdo que você está procurando. Os links também identificam onde você está na página, o que pode ajudá-lo a seguir enquanto você rola.
+1:20:: Para se concentrar apenas no conteúdo em si, você pode colapsar as barras laterais esquerda e direita. Quando terminar, expanda-os para ver os controlos de navegação novamente.
+1:33:: Se você precisar ler os documentos off-line, você pode baixar um PDF de todo o site de documentos ou de seções individuais dentro do site.
+1:41:: A documentação do NetApp é de código aberto e projetada para permitir contribuições da comunidade usando uma conta do GitHub. Envie seu feedback para solicitar uma atualização de documentação ou edite diretamente o conteúdo, que é enviado para um lead de conteúdo do NetApp antes de mesclar.
+1:59:: Nos sites de documentos de alguns de nossos serviços de nuvem, você pode ver uma opção de provedor de nuvem que permite filtrar os documentos para um provedor de nuvem específico. Por exemplo, se você selecionar o Microsoft Azure, verá apenas o conteúdo que se aplica ao Azure. O conteúdo para outros provedores de nuvem não aparecerá.
+2:18:: Como você pode acessar nosso conteúdo a partir de um tablet, dispositivo móvel ou desktop, usamos um layout responsivo para garantir que nossos documentos tenham boa aparência em qualquer dispositivo.
+2:28:: E é isso. Esperamos que você goste de usar esses recursos e obrigado por fazer parte de nossa comunidade de conteúdo.
+
+
+====
