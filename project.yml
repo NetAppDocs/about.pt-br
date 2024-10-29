@@ -12,6 +12,10 @@ sidebar:
   - title: Sobre os sites
     url: "/docs-netapp-com.html"
   - title: Sobre o Doc (assistente com IA)
-    url: "/doc-gen-ai-assistant.html"
+    entries:
+    - title: Capacidades e limitações
+      url: "/doc-gen-ai-assistant.html"
+    - title: Termos de uso
+      url: "/doc-gen-ai-assistant-terms-of-use.html"
   - title: Avisos legais
     url: "/legal-notices.html"

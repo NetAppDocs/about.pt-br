@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: doc-gen-ai-assistant-terms-of-use.html 
+keywords:  
+summary: O DOC é o nosso assistente generativo com IA no docs.NetApp.com. O DOC foi projetado para responder a perguntas sobre produtos NetApp, usando conteúdo publicado em docs.NetApp.com. Por exemplo, o Doc pode responder a perguntas sobre recursos de eficiência de storage da NetApp ou práticas recomendadas de backup e recuperação para ambientes multicloud. 
+---
+= NetApp generative AI-powered assistente termos de uso
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O DOC é o nosso assistente generativo com IA no docs.NetApp.com. O DOC foi projetado para responder a perguntas sobre produtos NetApp, usando conteúdo publicado em docs.NetApp.com. Por exemplo, o Doc pode responder a perguntas sobre recursos de eficiência de storage da NetApp ou práticas recomendadas de backup e recuperação para ambientes multicloud.
+
+Esta versão Beta do Doc cria conteúdo gerado por algoritmos que pode conter erros ou imprecisões. Todo o conteúdo gerado deve ser usado apenas como ponto de partida. Você deve sempre verificar as respostas do Doc consultando a documentação oficial do produto da NetApp. Qualquer dependência das respostas geradas pelo Doc é por sua conta e risco, e a NetApp não é responsável por quaisquer problemas ou dificuldades que possam ocorrer usando apenas as respostas geradas pelo Doc.
+
+
+
+== Condições
+
+Ao usar o Doc, você concorda em cumprir as seguintes regras e estipulações ao gerar conteúdo e respostas. O não cumprimento destes termos pode resultar no bloqueio do uso do Doc.
+
+* Não tente usar o Doc para produzir conteúdo que possa causar danos, abuso, violência ou engano.
+* Não tente envolver o Doc em conversas que estejam fora do escopo de seu propósito pretendido ou para obter respostas para perguntas que não são sobre produtos NetApp.
+
+
+
+
+== Feedback
+
+Estamos trabalhando para melhorar continuamente o Doc. Por favor, envie-nos feedback dentro da janela de bate-papo do Doc. Deixe-nos saber se as respostas do Doc são precisas e úteis ou se estão incompletas ou de alguma forma insuficientes. Você também pode enviar um e-mail para NetApp.com[Contact US] se você tiver alguma dúvida ou preocupação sobre as capacidades ou respostas do Doc.
