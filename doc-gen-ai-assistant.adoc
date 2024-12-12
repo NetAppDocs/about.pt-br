@@ -42,7 +42,7 @@ O DOC compartilha insights sobre como ele gera suas respostas, dando a você a o
 == Limitações
 
 * O DOC utiliza apenas o conteúdo publicado no docs.NetApp.com para gerar respostas. O DOC não gera respostas a partir de conteúdo publicado em outros sites da NetApp.
-* Durante o Beta, o Doc não se refere a toda a documentação de todos os produtos NetApp. Doc refere-se apenas a um subconjunto de documentação, incluindo, entre outros, documentos ONTAP, BlueXP , StorageGRID, Keystone e SnapCenter para ajudar a gerar respostas. Se você está procurando informações sobre as quais o Doc não sabe, envie um e-mail:ng-doccoments em NetApp.com[deixe-nos saber].
+* Durante o Beta, o Doc não se refere a toda a documentação de todos os produtos NetApp. Doc refere-se apenas a um subconjunto de documentação, incluindo, entre outros, documentos ONTAP, BlueXP , StorageGRID, Keystone e SnapCenter para ajudar a gerar respostas. Se você está procurando informações que o Doc não sabe, mailto:ng-doccomments at NetApp.com[deixe-nos saber].
 * Se um produto NetApp tiver várias versões de documentação, o Doc apenas se refere à versão mais recente para ajudar a gerar respostas.
 * O DOC não se refere à página em que você está para fazer suposições sobre o produto em que você está interessado. Seja o mais específico possível com suas perguntas, mencionando nomes e versões de produtos.
 * Embora o Doc possa fornecer respostas em outros idiomas, o Doc não leu as versões não inglesas dos documentos do produto NetApp. Para garantir que você tenha as informações mais precisas possíveis, sempre verifique as respostas do Doc em inglês.
@@ -84,4 +84,4 @@ Tente diferentes padrões e abordagens para fazer perguntas. Se você não conse
 
 == Feedback
 
-Estamos trabalhando para melhorar continuamente o Doc. Por favor, envie-nos feedback dentro da janela de bate-papo do Doc. Deixe-nos saber se as respostas do Doc são precisas e úteis ou se estão incompletas ou de alguma forma insuficientes. Você também pode enviar um e-mail para NetApp.com[Contact US] se você tiver alguma dúvida ou preocupação sobre as capacidades ou respostas do Doc.
+Estamos trabalhando para melhorar continuamente o Doc. Por favor, envie-nos feedback dentro da janela de bate-papo do Doc. Deixe-nos saber se as respostas do Doc são precisas e úteis ou se estão incompletas ou de alguma forma insuficientes. Você também pode enviar um e-mail para:ng-doccomments at NetApp.com[Contact US] se você tiver alguma dúvida ou preocupação sobre as capacidades ou respostas do Doc.
