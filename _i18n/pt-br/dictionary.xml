@@ -5,31 +5,6 @@
   <block id="ed9f05b554b94c74deffa021f0c45818" category="paragraph">Ao usar o Doc, você concorda em cumprir as seguintes regras e estipulações ao gerar conteúdo e respostas. O não cumprimento destes termos pode resultar no bloqueio do uso do Doc.</block>
   <block id="1492b263677041177b75767d2dbc780b" category="list-text">Não tente usar o Doc para produzir conteúdo que possa causar danos, abuso, violência ou engano.</block>
   <block id="977674521e01e951ee7b77e735caa1d1" category="list-text">Não tente envolver o Doc em conversas que estejam fora do escopo de seu propósito pretendido ou para obter respostas para perguntas que não são sobre produtos NetApp.</block>
-  <block id="82ec2cd6fda87713f588da75c3b1d0ed" category="section-title">Recursos</block>
-  <block id="a8d0ffdd3caa441024af945401c069ea" category="list-text">Doc não é um elefante, mas tem uma memória bastante.</block>
-  <block id="82ccd5b48bcf83ad98f41b4183b07184" category="paragraph">Na maioria das vezes, Doc lembra e presta atenção ao que você está discutindo. Se o Doc perder o controle de uma conversa, você pode iniciar uma nova na mesma sessão de chat.</block>
-  <block id="bfef452160ef7b86bf242e0d2bdd357c" category="list-text">Doc é um leitor ávido.</block>
-  <block id="0e355d29fd3887f49661d3802e1ea25a" category="paragraph">Sempre que nossos documentos forem publicados no docs.NetApp.com (e isso acontece muito), o Doc lê e será capaz de referenciá-los para gerar suas respostas. É incrível a rapidez com que o Doc aprende.</block>
-  <block id="2a7bcb95eb0d0f227b37fb6ec8680c19" category="list-text">O DOC é consultivo.</block>
-  <block id="61f8e1f531f123a4df97c1f7782918c8" category="paragraph">O DOC oferece sugestões para perguntas que você pode querer fazer além das que você fez.</block>
-  <block id="1408f478bd58d496e88744dadf1a02b1" category="list-text">O DOC é comunicativo.</block>
-  <block id="d0ce116c1cb9fcbf3cb66f15552cce02" category="paragraph">O DOC compartilha insights sobre como ele gera suas respostas, dando a você a oportunidade de reformular suas perguntas.</block>
-  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">Limitações</block>
-  <block id="8c9258587429e6e6438d30caf456ff3a" category="list-text">Se um produto NetApp tiver várias versões de documentação, o Doc apenas se refere à versão mais recente para ajudar a gerar respostas.</block>
-  <block id="4634b38da377884324963fff9cf5bd2f" category="list-text">Embora o Doc possa fornecer respostas em outros idiomas, o Doc não leu as versões não inglesas dos documentos do produto NetApp. Para garantir que você tenha as informações mais precisas possíveis, sempre verifique as respostas do Doc em inglês.</block>
-  <block id="a0d4cc0f54602c3f247c72f15a7d2dbf" category="section-title">Dicas</block>
-  <block id="55014c9dfa0b6fb12f159a872f65dc2a" category="list-text">Doc adora perguntas específicas.</block>
-  <block id="39af031d661a8d60c6eb934145542f88" category="paragraph">O DOC fornece respostas melhores quando você cita explicitamente um nome de produto, interface (por exemplo, GUI ou API) e versão. Por exemplo: _Quais etapas devo seguir no Gerenciador de sistemas para atualizar do ONTAP 9.8 para o ONTAP 9.12,1?_</block>
-  <block id="ae5ba765952a9c408e513612743afd2d" category="list-text">Precisa aprender a fazer alguma coisa?</block>
-  <block id="da5f06b84806d0f43edbcdf8ab9140e3" category="paragraph">Considere pedir ao Doc para incluir os passos. Em vez de perguntar Doc _como faço para instalar o conetor BlueXP  sem internet?_ Tente perguntar _que passos devo seguir para instalar o conetor BlueXP  sem internet?_</block>
-  <block id="1fb87efde9d27c81852aef738416fea5" category="list-text">Faça perguntas simples.</block>
-  <block id="56a8772e302d94cfd17246eecc01b02a" category="paragraph">Se você precisar fazer uma pergunta complexa, divida-a em perguntas menores (isso às vezes é referido como questões de encadeamento). Durante uma sessão de chat, Doc presta atenção e lembra as perguntas que você faz.</block>
-  <block id="546f372fd0732757db387209bc7e5e4e" category="paragraph">Em vez de perguntar Doc _como faço para configurar a proteção contra ransomware e os horários de backup no BlueXP ?_ Tente _quais são as etapas para configurar a proteção contra ransomware no BlueXP ?_ e _quais são as etapas para configurar os horários de backup no BlueXP ?_</block>
-  <block id="f2e25aa9036d6798312b7ccb5891aa13" category="list-text">Use aspas para esclarecer quando você quer que o Doc preste atenção às frases com várias palavras que o Doc pode interpretar mal.</block>
-  <block id="c2831909c9ecc0befad064d2ee8566ff" category="paragraph">Por exemplo, se você perguntar ao Doc _como a eficiência de armazenamento é calculada no ONTAP?_, é possível que o Doc pense que você está perguntando sobre armazenamento e eficiência como duas palavras não relacionadas. Para se certificar de que o Doc entende que você está perguntando sobre (o conceito chamado) eficiência de armazenamento, inclua essa frase dentro de aspas como assim: _Como é calculada a "eficiência de armazenamento" no ONTAP?_</block>
-  <block id="af86dd4b829e0feb137a94ed8e9ec7eb" category="paragraph">Se você estivesse tendo uma conversa com um humano, você provavelmente enfatizaria a frase, possivelmente usaria citações aéreas, ou gesto de alguma forma que torna a distinção óbvia. Pense nas aspas duplas como um gesto que ajuda Doc a entender o que você está falando.</block>
-  <block id="e423d49b947f8deb0f39c1fc9aa13006" category="list-text">Depois de responder, o Doc fornece insights sobre como ele gerou sua resposta. Fica curioso.</block>
-  <block id="4ad038ec67eddd3dd262b131a2914027" category="paragraph">Tente diferentes padrões e abordagens para fazer perguntas. Se você não conseguir o resultado desejado, tente reformular sua pergunta.</block>
   <block id="bea4c2c8eb82d05891ddd71584881b56" category="section-title">Feedback</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="76461c921fd953874545c28924c497a5" category="doc">Sobre os sites docs.NetApp.com</block>
@@ -88,13 +63,39 @@
   <block id="043395774d0b5e5fa6d8e5cd9b8ce5a2" category="sidebar">Sobre o Doc (assistente com IA)</block>
   <block id="defcec3c682659592679e8272cd2e9b5" category="summary">O DOC é o nosso assistente generativo com IA no docs.NetApp.com. O DOC foi projetado para responder a perguntas sobre produtos NetApp, usando conteúdo publicado em docs.NetApp.com. Por exemplo, o Doc pode responder a perguntas sobre recursos de eficiência de storage da NetApp ou práticas recomendadas de backup e recuperação para ambientes multicloud.</block>
   <block id="3ac8c79d6a5b493f652fb0b8461750c8" category="doc">NetApp generative AI-powered assistente termos de uso</block>
-  <block id="dc7435058c3ed56d99ee34e365ff0b39" category="summary">O assistente NetApp generative AI está disponível em docs.NetApp.com. O DOC responde a perguntas sobre os produtos NetApp usando apenas o conteúdo publicado neste site. O DOC não usa conteúdo de outros sites da NetApp ou da internet pública para responder a perguntas.</block>
   <block id="da83087ce1e5e3d3a31ddadde291fcd7" category="doc">Visão geral do assistente NetApp generative com IA</block>
-  <block id="402fe4efa3c4cc0d6ede3f565f0bc06d" category="paragraph">O assistente NetApp generative AI, "Doc", está disponível no docs.NetApp.com. O DOC responde a perguntas sobre os produtos NetApp usando apenas o conteúdo publicado neste site. O DOC não usa conteúdo de outros sites da NetApp ou da internet pública para responder a perguntas.</block>
-  <block id="74f4a4764082dcf42186f10b47664954" category="list-text">O DOC utiliza apenas o conteúdo publicado no docs.NetApp.com para gerar respostas. O DOC não gera respostas a partir de conteúdo publicado em outros sites da NetApp.</block>
-  <block id="44c830e5279537009e37c5f1d7e33426" category="list-text">O DOC não se refere à página em que você está para fazer suposições sobre o produto em que você está interessado. Seja o mais específico possível com suas perguntas, mencionando nomes e versões de produtos.</block>
   <block id="ffa82bc3c7eca2bab1fae02c80ab8216" category="sidebar">Capacidades e limitações</block>
   <block id="b5b7b6c5b5f08dd62ed2dc52c7a4cfe8" category="sidebar">Termos de uso</block>
   <block id="858a13328205a50b4d4ea7a8e790b8b7" category="paragraph">Estamos trabalhando para melhorar continuamente o Doc. Por favor, envie-nos feedback dentro da janela de bate-papo do Doc. Deixe-nos saber se as respostas do Doc são precisas e úteis ou se estão incompletas ou de alguma forma insuficientes. Você também pode enviar um e-mail para:ng-doccomments at NetApp.com[Contact US] se você tiver alguma dúvida ou preocupação sobre as capacidades ou respostas do Doc.</block>
-  <block id="9ad4361a0d51af27ebbe2cc42d8b064b" category="list-text">Durante o Beta, o Doc não se refere a toda a documentação de todos os produtos NetApp. Doc refere-se apenas a um subconjunto de documentação, incluindo, entre outros, documentos ONTAP, BlueXP , StorageGRID, Keystone e SnapCenter para ajudar a gerar respostas. Se você está procurando informações que o Doc não sabe, mailto:ng-doccomments at NetApp.com[deixe-nos saber].</block>
+  <block id="0d170dccad1565dabf52d4a404e9f01e" category="summary">Doc é o assistente de IA do NetApp disponível no docs.NetApp.com. Ele responde a perguntas usando apenas o conteúdo deste site. O DOC não usa conteúdo de outros sites da NetApp ou da Internet pública para responder a perguntas.</block>
+  <block id="6179d3ef872af4eb960f4c34232845fc" category="paragraph">O DOC pode criar respostas de perguntas anteriores, sugerir perguntas adicionais e explicar como ele gera respostas. Isso o torna uma ferramenta valiosa para navegar na documentação do NetApp.</block>
+  <block id="78d84dc38711d923fa1dc1351e7e5a90" category="section-title">Escopo e limitações</block>
+  <block id="e02e8d81102c18e5ac8688f45881ccb4" category="paragraph">O DOC pode responder apenas a perguntas com base em conteúdo selecionado publicado em docs.NetApp.com.</block>
+  <block id="ac9a966db57853c0bb3b03769804fffe" category="admonition">Durante esta fase beta, o Doc não é treinado em todos os conteúdos docs.NetApp.com. O DOC pode responder a perguntas sobre conteúdo, incluindo, entre outros, ONTAP, BlueXP , StorageGRID, Keystone e SnapCenter Content. Se você precisar de informações que o Doc não tem, informe-nos.</block>
+  <block id="5cce09c2cd6acff384726d4c5913b10a" category="list-text">Se você não especificar uma versão do produto, o Doc responde às perguntas com base na versão publicada mais recente. Se necessário, você pode especificar uma versão anterior em sua pergunta.</block>
+  <block id="ba2e07590de589acb6827cadda0ba814" category="list-text">O DOC não sabe em que página você está quando você faz uma pergunta. Para obter melhores resultados, seja específico com nomes e versões de produtos.</block>
+  <block id="d3aab3cd74c1c5868499ccc53ebe0a75" category="list-text">O DOC pode conversar em idiomas compatíveis com docs.NetApp.com, mas não é treinado em versões não inglesas.</block>
+  <block id="e4a95039ccdfb7b85c839ab71de68d99" category="section-title">Escrever bons prompts</block>
+  <block id="b0d6ece087301f0de0e69fb8d2e2b5ec" category="paragraph">Siga estas dicas para obter a melhor experiência com o Doc.</block>
+  <block id="a7e39a4b3056ffa36b99607ab22c9468" category="list-text">Faça perguntas específicas.</block>
+  <block id="dd9caa784c9ca3239781bc659f74ccb8" category="list-text">Escreva perguntas detalhadas e especifique o nome do produto, versão e tipo de interface (GUI, API). Por exemplo:</block>
+  <block id="ccf6477a42eb38a386f552adc5eacddd" category="paragraph">Que passos devo seguir no Gestor de sistema para atualizar do ONTAP 9,8 para o ONTAP 9.12.1?</block>
+  <block id="8558282ecc55619316ab757a333f9464" category="list-text">Peça etapas para concluir uma tarefa.</block>
+  <block id="8f6d686a8622f503fb23b364e0cf71ab" category="list-text">Peça ao Doc para incluir as etapas para concluir um processo. Em vez de perguntar _como eu instalo o BlueXP  Connector sem internet?_ Tente:</block>
+  <block id="3ef101280b587102ce939479558aa055" category="paragraph">Que passos devo seguir para instalar o conetor BlueXP  sem Internet?</block>
+  <block id="275396194b219acfa3d9cda68ae5b93c" category="list-text">Divida perguntas complexas em pedaços.</block>
+  <block id="35fec273a859ca1e6628462d78db71c3" category="list-text">Divida perguntas complexas em perguntas menores (também conhecidas como _encadeamento_). O DOC lembra perguntas anteriores e constrói respostas mais complexas à medida que você continua a conversar.</block>
+  <block id="25ef66eb46ca88d1d3a93f83a5769355" category="paragraph">Por exemplo, em vez de perguntar Doc _como configuro a proteção contra ransomware e programações de backup no BlueXP ?_ Tente:</block>
+  <block id="84de75573d217bda8683d66d37460ded" category="paragraph">Quais são as etapas para configurar a proteção contra ransomware no BlueXP ?</block>
+  <block id="9f6c2280afbfa54b375e1af3ff06c653" category="paragraph">em seguida, pergunte:</block>
+  <block id="af21a9a42fc6c57d40376fa86d55441c" category="paragraph">Quais são as etapas para configurar agendamentos de backup no BlueXP ?</block>
+  <block id="d3badbdbe83ec6535fa70220c14ec37e" category="list-text">Use aspas.</block>
+  <block id="102e31705b2b7aa77cd5895ec984961b" category="list-text">Inclua frases com várias palavras entre aspas. Isso ajuda Doc a reconhecer a frase como um único conceito, semelhante a como você pode enfatizá-la em uma conversa com um ser humano.</block>
+  <block id="8ac004a4dacf3f869c93fa6b2f1f058e" category="paragraph">Por exemplo, nesta pergunta, _como a eficiência de armazenamento é calculada no ONTAP?_ Doc pode pensar que você está perguntando sobre _storage_ e _eficiência_ como duas palavras não relacionadas. Em vez disso, tente:</block>
+  <block id="d8b6f28e3584b30ddf16994ca1102070" category="paragraph">Como é calculada a "eficiência de storage" no ONTAP?</block>
+  <block id="bd6aea123f1cd8db72d8427cac215429" category="list-text">Reveja como o Doc respondeu.</block>
+  <block id="afae99cf2edf2a9320bf47938ace301b" category="list-text">Depois de responder, o Doc fornece insights sobre como ele gerou sua resposta. Isso pode lhe dar ideias sobre como refinar sua pergunta para obter os resultados desejados.</block>
+  <block id="e10d7022bccbf44b070810cd5909184e" category="list-text">Limpe seu histórico de bate-papo</block>
+  <block id="3508984ba8ee3276c733e57293128c50" category="list-text">Se você quiser alterar tópicos, desmarque o chat no início de novo. Como o Doc se lembra de perguntas anteriores, as alterações de tópicos podem produzir resultados inesperados.</block>
+  <block id="5ac85d6acb2d0e353a29dbf8a61e4a47" category="paragraph">O seu feedback ajuda-nos a melhorar a forma como o Doc responde. Use a ferramenta de feedback na janela de bate-papo do Doc para nos informar se as respostas são precisas e úteis ou se precisam de melhorias. Você também pode enviar um e-mail para NetApp.com com com perguntas ou comentários.</block>
 </blocks>
