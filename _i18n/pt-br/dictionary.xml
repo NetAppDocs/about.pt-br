@@ -72,8 +72,6 @@
   <block id="78d84dc38711d923fa1dc1351e7e5a90" category="section-title">Escopo e limitações</block>
   <block id="e02e8d81102c18e5ac8688f45881ccb4" category="paragraph">O DOC pode responder apenas a perguntas com base em conteúdo selecionado publicado em docs.NetApp.com.</block>
   <block id="ac9a966db57853c0bb3b03769804fffe" category="admonition">Durante esta fase beta, o Doc não é treinado em todos os conteúdos docs.NetApp.com. O DOC pode responder a perguntas sobre conteúdo, incluindo, entre outros, ONTAP, BlueXP , StorageGRID, Keystone e SnapCenter Content. Se você precisar de informações que o Doc não tem, informe-nos.</block>
-  <block id="5cce09c2cd6acff384726d4c5913b10a" category="list-text">Se você não especificar uma versão do produto, o Doc responde às perguntas com base na versão publicada mais recente. Se necessário, você pode especificar uma versão anterior em sua pergunta.</block>
-  <block id="ba2e07590de589acb6827cadda0ba814" category="list-text">O DOC não sabe em que página você está quando você faz uma pergunta. Para obter melhores resultados, seja específico com nomes e versões de produtos.</block>
   <block id="d3aab3cd74c1c5868499ccc53ebe0a75" category="list-text">O DOC pode conversar em idiomas compatíveis com docs.NetApp.com, mas não é treinado em versões não inglesas.</block>
   <block id="e4a95039ccdfb7b85c839ab71de68d99" category="section-title">Escrever bons prompts</block>
   <block id="b0d6ece087301f0de0e69fb8d2e2b5ec" category="paragraph">Siga estas dicas para obter a melhor experiência com o Doc.</block>
@@ -98,4 +96,6 @@
   <block id="e10d7022bccbf44b070810cd5909184e" category="list-text">Limpe seu histórico de bate-papo</block>
   <block id="3508984ba8ee3276c733e57293128c50" category="list-text">Se você quiser alterar tópicos, desmarque o chat no início de novo. Como o Doc se lembra de perguntas anteriores, as alterações de tópicos podem produzir resultados inesperados.</block>
   <block id="5ac85d6acb2d0e353a29dbf8a61e4a47" category="paragraph">O seu feedback ajuda-nos a melhorar a forma como o Doc responde. Use a ferramenta de feedback na janela de bate-papo do Doc para nos informar se as respostas são precisas e úteis ou se precisam de melhorias. Você também pode enviar um e-mail para NetApp.com com com perguntas ou comentários.</block>
+  <block id="430fdc9d9149c8cc43c466b7320e92b9" category="list-text">O Doc responde a perguntas com base apenas na versão mais recente publicada de um produto. Por exemplo, se houver documentação para a versão 1.0 e a versão 2.0 de um produto, o Doc se refere apenas à documentação 2.0 mais recente.</block>
+  <block id="9f1b245deb3e474f47cde2de8fa217be" category="list-text">Para melhores resultados, seja sempre específico com os nomes dos produtos. O Doc sabe em que página você está quando faz uma pergunta, mas esse é apenas um dos vários fatores que ele leva em consideração ao formular uma resposta.</block>
 </blocks>
