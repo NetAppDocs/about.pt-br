@@ -21,7 +21,7 @@ O DOC pode criar respostas de perguntas anteriores, sugerir perguntas adicionais
 
 == Escopo e limitações
 
-O DOC pode responder apenas a perguntas com base em conteúdo selecionado publicado em docs.NetApp.com.
+O Doc só pode responder a perguntas baseadas no conteúdo publicado em docs.netapp.com.
 
 * O Doc responde a perguntas com base apenas na versão mais recente publicada de um produto. Por exemplo, se houver documentação para a versão 1.0 e a versão 2.0 de um produto, o Doc se refere apenas à documentação 2.0 mais recente.
 * Para melhores resultados, seja sempre específico com os nomes dos produtos. O Doc sabe em que página você está quando faz uma pergunta, mas esse é apenas um dos vários fatores que ele leva em consideração ao formular uma resposta.
