@@ -15,7 +15,7 @@ summary: O DOC é o nosso assistente generativo com IA no docs.NetApp.com. O DOC
 [role="lead"]
 O DOC é o nosso assistente generativo com IA no docs.NetApp.com. O DOC foi projetado para responder a perguntas sobre produtos NetApp, usando conteúdo publicado em docs.NetApp.com. Por exemplo, o Doc pode responder a perguntas sobre recursos de eficiência de storage da NetApp ou práticas recomendadas de backup e recuperação para ambientes multicloud.
 
-Esta versão Beta do Doc cria conteúdo gerado por algoritmos que pode conter erros ou imprecisões. Todo o conteúdo gerado deve ser usado apenas como ponto de partida. Você deve sempre verificar as respostas do Doc consultando a documentação oficial do produto da NetApp. Qualquer dependência das respostas geradas pelo Doc é por sua conta e risco, e a NetApp não é responsável por quaisquer problemas ou dificuldades que possam ocorrer usando apenas as respostas geradas pelo Doc.
+O Doc cria conteúdo gerado por algoritmos que pode conter erros ou imprecisões. Todo o conteúdo gerado deve ser usado apenas como ponto de partida. Você deve sempre verificar as respostas do Doc consultando a documentação oficial do produto da NetApp. Qualquer utilização das respostas geradas pelo Doc é de sua inteira responsabilidade, e a NetApp não se responsabiliza por quaisquer problemas ou dificuldades que possam ocorrer devido ao uso exclusivo dessas respostas.
 
 
 
