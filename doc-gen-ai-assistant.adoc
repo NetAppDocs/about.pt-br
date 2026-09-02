@@ -19,6 +19,7 @@ O DOC pode criar respostas de perguntas anteriores, sugerir perguntas adicionais
 
 
 
+[[scope-and-limitations]]
 == Escopo e limitações
 
 O Doc só pode responder a perguntas baseadas no conteúdo publicado em docs.netapp.com.
@@ -30,6 +31,7 @@ O Doc só pode responder a perguntas baseadas no conteúdo publicado em docs.net
 
 
 
+[[writing-good-prompts]]
 == Escrever bons prompts
 
 Siga estas dicas para obter a melhor experiência com o Doc.
@@ -87,6 +89,7 @@ Limpe seu histórico de bate-papo:: Se quiser mudar de assunto (por exemplo, se 
 
 
 
+[[feedback]]
 == Feedback
 
 Estamos trabalhando para melhorar continuamente o Doc. Por favor, envie-nos feedback dentro da janela de bate-papo do Doc. Deixe-nos saber se as respostas do Doc são precisas e úteis ou se estão incompletas ou de alguma forma insuficientes. Você também pode enviar um e-mail para:ng-doccomments at NetApp.com[Contact US] se você tiver alguma dúvida ou preocupação sobre as capacidades ou respostas do Doc.
