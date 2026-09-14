@@ -1,0 +1,74 @@
+---
+sidebar: sidebar 
+permalink: mcp-server-learn.html 
+keywords:  
+summary:  
+---
+= Saiba mais sobre o servidor MCP do docs.netapp.com
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O servidor Model Context Protocol (MCP) do docs.netapp.com fornece uma camada de integração padronizada e pronta para agentes, posicionada à frente da documentação existente da NetApp e dos serviços de Geração Aumentada por Recuperação (RAG). Ele permite que agentes de IA interajam com o conhecimento técnico corporativo usando linguagem natural, sem exigir integração direta com a API REST ou desenvolvimento de pipelines personalizados.
+
+
+
+[[use-cases]]
+== Casos de uso
+
+Ao fornecer acesso estruturado à documentação da NetApp, o servidor MCP docs.netapp.com/br/ permite que os agentes de IA:
+
+* Descubra a documentação relevante
+* Recupere todo o conteúdo do documento
+* Gerar respostas com base na documentação (geração de respostas baseada em RAG)
+* Produza respostas fundamentadas e verificáveis
+
+
+Você pode usar o servidor MCP docs.netapp.com da netapp.com/br/ para:
+
+* Aprimore ambientes de desenvolvimento orientados a agentes com conteúdo da NetApp.
+* Ofereça suporte à engenharia e aos fluxos de trabalho de suporte que precisam de documentação confiável.
+* Reduza a necessidade de criar e manter integrações personalizadas de pesquisa, recuperação ou RAG.
+* Forneça respostas fundamentadas na documentação oficial da NetApp.
+
+
+
+
+[[how-the-docs-netapp-com-mcp-server-works]]
+== Como funciona o servidor MCP do docs.netapp.com
+
+O servidor MCP funciona como uma interface para a documentação oficial da NetApp e retorna respostas fundamentadas a partir do conteúdo publicado.
+
+. O agente de IA envia uma solicitação ao servidor MCP.
+. O servidor MCP recupera a documentação relevante.
+. O sistema retorna uma resposta estruturada e fundamentada.
+
+
+
+
+[[requirements]]
+== Requisitos
+
+* É necessária uma chave de assinatura para acessar o servidor MCP. Para solicitar uma chave, entre em contato com ng-docs-mcp@netapp.com com uma breve descrição do seu caso de uso.
+* Os clientes suportados incluem ambientes compatíveis com MCP, como Visual Studio Code com GitHub Copilot, Claude Desktop, Cursor e frameworks de agentes baseados em Python.
+* Você deve seguir os termos de uso da documentação aplicável da NetApp e as políticas de governança de acesso.
+
+
+
+
+[[limitations]]
+== Limitações
+
+* O servidor MCP consulta o conteúdo publicado em netapp.com/br/. Ele não acessa dados privados de locatários nem informações internas de perfil de usuário.
+* O conteúdo se limita ao conteúdo publicado em docs.netapp.com e não substitui a telemetria do produto, o estado do cluster ou outras fontes de dados específicas do ambiente.
+* A qualidade da resposta pode ser afetada pela forma como o agente do cliente utiliza as ferramentas disponíveis e dá seguimento aos resultados da pesquisa.
+* O serviço é implantado sem estado em infraestrutura de nuvem escalável, então a latência e a atualização dependem da documentação downstream e dos serviços RAG.
+
+
+.Qual é o próximo passo?
+xref:mcp-server-get-started.html[Comece com o servidor MCP do docs.netapp.com]

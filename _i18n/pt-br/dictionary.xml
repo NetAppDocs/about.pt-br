@@ -96,4 +96,121 @@
   <block id="98d95c2ccd0fa7f85c70c1ac654e2ac2" category="paragraph">Quais são as etapas para configurar agendamentos de backup no NetApp Console?</block>
   <block id="c1dd50d72cdca10e54e035173567497f" category="paragraph">O Doc cria conteúdo gerado por algoritmos que pode conter erros ou imprecisões. Todo o conteúdo gerado deve ser usado apenas como ponto de partida. Você deve sempre verificar as respostas do Doc consultando a documentação oficial do produto da NetApp. Qualquer utilização das respostas geradas pelo Doc é de sua inteira responsabilidade, e a NetApp não se responsabiliza por quaisquer problemas ou dificuldades que possam ocorrer devido ao uso exclusivo dessas respostas.</block>
   <block id="8a5bdbcb5016ac5e4f002667c3de782f" category="paragraph">O Doc só pode responder a perguntas baseadas no conteúdo publicado em docs.netapp.com.</block>
+  <block id="2d7cb83f6a78fa8576037be42e6f5bfe" category="summary">Referência para desenvolvedores que integram com o servidor do Protocolo de Contexto de Modelo (MCP) do docs.netapp.com.</block>
+  <block id="0781ee2ea7332eaf44104bfd93d875d6" category="doc">docs.netapp.com/br/ Referência para desenvolvedores de servidores MCP</block>
+  <block id="d372ff3d1a23c31929efdfca054ceb28" category="paragraph">Esta referência fornece informações para desenvolvedores que implementam ou integram com o servidor Model Context Protocol (MCP) do docs.netapp.com.</block>
+  <block id="f94a303ddb4fcea8c0b4f679273b73c3" category="section-title">Endpoint MCP</block>
+  <block id="04b6245be0ba27d68bc5cebe33b33b11" category="paragraph">O servidor MCP docs.netapp.com tem um endpoint HTTP remoto que expõe a documentação da NetApp por meio de uma interface MCP padrão. Aplicativos cliente, como o GitHub Copilot no Visual Studio Code, o Claude Desktop, o Cursor e frameworks de agentes Python personalizados, podem se conectar a ele por meio de um cliente MCP compatível.</block>
+  <block id="84aa40cb3001b40215b0a93a27224513" category="paragraph-title">Endpoint HTTP</block>
+  <block id="c6836ea6c7734810c89adab56aad5b09" category="paragraph"><block ref="562287e68ceb246808d766d15b4c5306" prefix="" category="inline-code"></block></block>
+  <block id="79dc4e99718ffab967eff63e4ad61b02" category="inline-link-macro">Comece com o servidor MCP do docs.netapp.com</block>
+  <block id="83c74870caabf87b2af2ac9755a7d3a4" category="paragraph">O formato de exemplo a seguir é usado para configurar o servidor MCP usando um <block ref="d289533227af31b1e71af612edf41f92" prefix=" " category="inline-code"></block> arquivo no Visual Studio Code. Para obter informações sobre outros clientes MCP compatíveis, consulte <block ref="e08031093a9ce69f4a5bc48df43bde92" category="inline-link-macro-rx"></block>.</block>
+  <block id="8625e1de7be14c39b1d14dc03d822497" category="section-title">Ferramentas</block>
+  <block id="47888bad2106ef9bd3cf8c7b8abf44bb" category="paragraph">O servidor MCP do docs.netapp.com fornece um conjunto de ferramentas pequeno e específico para descoberta e recuperação de documentação. Você não precisa especificar uma ferramenta ao invocar o servidor MCP em seu cliente. O cliente de IA escolhe a ferramenta correta com base na consulta.</block>
+  <block id="7b3ebc479b1ea6be6f9b84e22b01d631" category="paragraph">O servidor atualmente oferece as seguintes ferramentas:</block>
+  <block id="05b7f49e3481b340ef099a049c913bb8" category="list-text"><block ref="267f9220616e88dcd31d60c6e6584990" prefix="" category="inline-code"></block>: Gera respostas fundamentadas em documentação usando um fluxo de trabalho de geração aprimorado por recuperação de informações.</block>
+  <block id="2cfaac3a0912d82dbbaf8d23cf2aa15a" category="list-text"><block ref="003ff8a2f2f5414d69d891473717ff6b" prefix="" category="inline-code"></block>: Descobre páginas de documentação relevantes da NetApp usando palavra-chave e consultas em linguagem natural.</block>
+  <block id="b2f93b02f76d4b6f51bacb865131c6b2" category="list-text"><block ref="2b5cbd88764927a6435b285a02164f1d" prefix="" category="inline-code"></block>: Recupera o conteúdo estruturado de uma página de documentação ou artigo específico.</block>
+  <block id="013af2fe54d3ed956ca1cc7726803106" category="list-text"><block ref="1962a11396d63dc19923d194f6e2793f" prefix="" category="inline-code"></block>: Valida a disponibilidade do servidor MCP.</block>
+  <block id="5ef0c737746fae2ca90e66c39333f8f6" category="section-title">Erros</block>
+  <block id="0a7219a326c91c69bd5d8aba9ac65781" category="paragraph">A tabela a seguir mostra os erros de autenticação comuns que podem ser retornados pelo servidor MCP da docs.netapp.com.</block>
+  <block id="902b0d55fddef6f8d651fe1035b7d4bd" category="cell">Erro</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Descrição</block>
+  <block id="c224fb2b9521eb00ab13e90903629b51" category="cell"><block ref="c24294c47f917eabec992a2dd78b09bb" prefix="" category="inline-code"></block></block>
+  <block id="c3fb1965dd60db8cd124420ff1a66630" category="cell">Nenhuma chave de assinatura foi fornecida.</block>
+  <block id="5b0dd82b801e95bdf59e5281fdc0fbd3" category="cell"><block ref="7dbdd95146b48c6945f18fd6b39bba32" prefix="" category="inline-code"></block></block>
+  <block id="72e663032d06d5df3238968ee1724919" category="cell">A chave de assinatura fornecida é inválida ou não está autorizada.</block>
+  <block id="7da815aae68e3c6dd31f865c69ecabcf" category="paragraph">Conecte seu ambiente de desenvolvimento de IA ao servidor do Protocolo de Contexto de Modelo (MCP) do docs.netapp.com. Depois de configurar o servidor MCP, use-o para retornar respostas fundamentadas da documentação publicada da NetApp.</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="section-title">Pré-requisitos</block>
+  <block id="8c800edb86057a8f4b5234fb71fe0db0" category="paragraph">Antes de configurar o servidor MCP docs.netapp.com, verifique o seguinte:</block>
+  <block id="0b669860723caf105189fdad22da0ec1" category="inline-link-macro">Saiba mais sobre o servidor MCP do docs.netapp.com</block>
+  <block id="b102980a3388d1f2f443365b9dcb146a" category="list-text">Você analisou os requisitos e limitações em <block ref="1f1b6cd0d2f9f0ba63c776d6d29480ed" category="inline-link-macro-rx"></block>.</block>
+  <block id="bf41fd581dff9296929c69011a53beca" category="list-text">Você tem acesso a um cliente compatível com MCP, como o Visual Studio Code com GitHub Copilot, Claude Desktop, Cursor ou frameworks de agentes baseados em Python.</block>
+  <block id="bc7c4b2284d2fb775f44a9d0fd3954e0" category="list-text">Você precisa ter uma chave de assinatura válida. Se você não fornecer uma chave, as solicitações MCP falharão e retornarão um erro de acesso. Para solicitar uma chave de assinatura, entre em contato com ng-docs-mcp@netapp.com com uma breve descrição do seu caso de uso.</block>
+  <block id="4d30100974473e62b0547de14b3f134b" category="list-text">Você tem acesso à rede ao endpoint MCP do docs.netapp.com:<block ref="562287e68ceb246808d766d15b4c5306" prefix=" " category="inline-code"></block>.</block>
+  <block id="9d3d7a53574bbdcf27b039f28a8bcfbc" category="section-title">Configure seu ambiente de desenvolvimento</block>
+  <block id="107d53fdbf4e07833d65ac635e43c817" category="paragraph">Escolha a opção de configuração para o seu ambiente.</block>
+  <block id="756d81882ef284fd51d61a57285c57ec" category="list-text"><block ref="39f12733fba70ee818f3949b935d7b9a" category="inline-xref-macro-rx"></block></block>
+  <block id="6b24943f6c7feb51cf13d1fa87fc72e2" category="list-text"><block ref="a0f780c61f3b9c1dccc2e14877fa038c" category="inline-xref-macro-rx"></block></block>
+  <block id="7d4799d68319acfe2bd60c19bf055209" category="list-text"><block ref="8237ac65ab2fc792af68941ba80ec6dd" category="inline-xref-macro-rx"></block></block>
+  <block id="50cda95404b8cbf7d37b773fb0cd1ed9" category="list-text"><block ref="d4c067d66ec5010a916dd23f4e141d15" category="inline-xref-macro-rx"></block></block>
+  <block id="d774949573271fd061a2ad055b3a478b" category="section-title">Configuração do Visual Studio Code</block>
+  <block id="e3198e8458fe671e980009d2f115217a" category="paragraph">Você pode se conectar ao servidor MCP a partir do Visual Studio Code usando o GitHub Copilot, configurando um <block ref="d289533227af31b1e71af612edf41f92" prefix=" " category="inline-code"></block> arquivo.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Antes de começar</block>
+  <block id="be4b90d27e154d87debbb308f2470047" category="list-text">Esta tarefa requer o Visual Studio Code com a extensão GitHub Copilot ativada.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Passos</block>
+  <block id="f7374d018dffa53cddecf18166e37749" category="list-text">Na sua área de trabalho do projeto no Visual Studio Code, execute as seguintes etapas:</block>
+  <block id="3527839c75fc014d86c10169754df3bd" category="list-text">Crie uma pasta chamada<block ref="7fde71560fa9376d2d93a25b42d719f5" prefix=" " category="inline-code"></block></block>
+  <block id="4054d40630e5aa7effac62ab05efc577" category="list-text">Crie um arquivo dentro da pasta chamado<block ref="d289533227af31b1e71af612edf41f92" prefix=" " category="inline-code"></block></block>
+  <block id="d07ded0c7b404b5cb6e56ea91f312625" category="list-text">Configure o arquivo <block ref="d289533227af31b1e71af612edf41f92" prefix=" " category="inline-code"></block>.</block>
+  <block id="01d3a32280cc94c7c057cd3d14488785" category="list-text">Salve o arquivo.</block>
+  <block id="b021b06da10dbe8f87006ce4bd6e00e3" category="list-text">Opcionalmente, configure o acesso global.</block>
+  <block id="21342184ffe3ce856a6061c300c2b7b3" category="paragraph">Para configurar o servidor MCP docs.netapp.com em todos os projetos e espaços de trabalho do Visual Studio Code, adicione a configuração ao diretório de configurações globais do usuário.</block>
+  <block id="927c8fed8b09eda6439e8db86ac0ea46" category="list-text">*Windows*:<block ref="07f1431c55cd039ae9261609046e453a" prefix=" " category="inline-code"></block></block>
+  <block id="e3516373b0f7b86e544f1ee3d587ab46" category="list-text">*macOS*:<block ref="02bd2042ba4d5b87fb8e2061daea56e6" prefix=" " category="inline-code"></block></block>
+  <block id="4b44a2beebaf86ec4b25fc66f6b9581c" category="paragraph">Adicione a definição do servidor:</block>
+  <block id="1a62c29b8faf7edddef904f33e67525b" category="admonition">Após modificar o arquivo global<block ref="d289533227af31b1e71af612edf41f92" prefix=" " category="inline-code"></block>, reinicie o Visual Studio Code para aplicar a configuração.</block>
+  <block id="9459f4061f10e1133797c5f12e0a2d00" category="list-text">Verifique a configuração.</block>
+  <block id="e19dfd92f9e7fc97413b4f3dacb54522" category="list-text">Abra o Visual Studio Code em seu espaço de trabalho.</block>
+  <block id="60a5d22cfa5f95623d9b84739bd17984" category="list-text">Confirme se o <block ref="c8b34c99d394c32ef013ae4626236494" prefix=" " category="inline-code"></block> arquivo está presente.</block>
+  <block id="9674f62509ca95d835baa7334ba30374" category="list-text">Faça uma pergunta usando o Copilot.</block>
+  <block id="0a52730597fb4ffa01fc117d9e71e3a9" category="paragraph-title">Exemplo</block>
+  <block id="7fb94b400a2f9eaf07f993f59239bcdb" category="paragraph">Quais são as diferenças entre o ONTAP e o Cloud Volumes ONTAP?</block>
+  <block id="92454e39a06c6f288bfdccc050007941" category="section-title">Integração de agente de IA em Python</block>
+  <block id="e6b5cbb42455c6d92b371c4ff3629f19" category="paragraph">Use esta opção se você estiver criando aplicativos ou agentes de IA que chamam diretamente o servidor MCP.</block>
+  <block id="c0e20ca8e8d3b6a6e88111dcea4b94e2" category="paragraph">Seu cliente se conecta ao endpoint do MCP e invoca as ferramentas.</block>
+  <block id="928be6f9ccc3ea24e8d20baeab03681a" category="section-title">Configuração do Claude Desktop</block>
+  <block id="ae8496e4afc43bab2efd122716f0aee4" category="paragraph">Para registrar o servidor MCP docs.netapp.com com o Claude Desktop, atualize o arquivo de configuração:</block>
+  <block id="50ae1a0b1a859c33e895d72bcc7ce737" category="list-text">*macOS*:<block ref="cb8ed374db47ccfda54a2f6c97732ff4" prefix=" " category="inline-code"></block></block>
+  <block id="3797cad4bd4a84e0e471c0dc477b6567" category="list-text">*Windows*:<block ref="e98e970f7ab6dce248d693251a905960" prefix=" " category="inline-code"></block></block>
+  <block id="f12e71096dd3355f548136dbcdaab706" category="section-title">Configuração do cursor</block>
+  <block id="c4c19e06a69347e5bc5ae4425add3893" category="paragraph">Para registrar o servidor MCP docs.netapp.com com o Cursor, atualize o arquivo de configuração.</block>
+  <block id="c0618641a757ec6c5769ae86992ee5d5" category="paragraph">Para aplicar a configuração globalmente, utilize os seguintes caminhos:</block>
+  <block id="0ae751be053d3fc48f6a82e5d14b4351" category="list-text">*Mac OS*:<block ref="97e81563fb5231feb950e6eeac43ebd0" prefix=" " category="inline-code"></block></block>
+  <block id="5ee4d4cade678205b0d49578af3c4b3a" category="list-text">*Windows*:<block ref="670ac8a759cf32074af70484659f4c9c" prefix=" " category="inline-code"></block></block>
+  <block id="ffa89dd593edf45d84d1a4c65e175f23" category="paragraph">Para aplicar a configuração em um único projeto, utilize <block ref="52f804d2bc1533d37bee92c5a51458ea" prefix=" " category="inline-code"></block> no diretório raiz do projeto.</block>
+  <block id="4a1480e03c0b193c1caced296f42c48c" category="admonition">Se o arquivo já tiver outros servidores MCP configurados, adicione <block ref="9dda5cbb4cc55e2b5af943d889109602" prefix=" " category="inline-code"></block> dentro do objeto <block ref="b841d7ae59ad110dffabe709b5e8a1c0" prefix=" " category="inline-code"></block> existente (certifique-se de adicionar uma vírgula após a entrada anterior). Se não houver a chave <block ref="b841d7ae59ad110dffabe709b5e8a1c0" prefix=" " category="inline-code"></block>, adicione a chave no nível superior, ao lado de quaisquer outras configurações.</block>
+  <block id="5a0ee65a57e3e47f7100f84c89d64010" category="section-title">Use o servidor MCP do docs.netapp.com</block>
+  <block id="1a75d532a5aee2e25e713249e74b8482" category="paragraph">Após configurar o servidor MCP, você pode interagir com a documentação técnica da NetApp diretamente no Visual Studio Code ou na interface do cliente.</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">Sobre esta tarefa</block>
+  <block id="c5692c43168f96a99373fd6e31c940fb" category="list-text">O cliente de IA escolhe a ferramenta apropriada para fornecer resultados com base na sua consulta.</block>
+  <block id="a52d3adeee88ebd00cc6b4c2a65a5b75" category="list-text">Use perguntas claras e completas em vez de consultas curtas ou vagas.</block>
+  <block id="42488c0812f37d5299ea1c0eca2f55a8" category="list-text">As respostas são sempre baseadas na documentação oficial da NetApp.</block>
+  <block id="7b4df1f195559afee2ff083bedc36a33" category="list-text">Abra o chat no seu cliente compatível com MCP.</block>
+  <block id="11a171f8117ca00332da239f1d501ac0" category="list-text">Invoque o servidor MCP configurado e faça uma pergunta clara sobre os produtos ou procedimentos da NetApp.</block>
+  <block id="fb21f880582deebcf8be87d87ddb748e" category="list-text">Analise a resposta fundamentada.</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="list-title">Informações relacionadas</block>
+  <block id="775ab1c51808b23bf5a9c58956c269ab" category="inline-link-macro">Referência do desenvolvedor</block>
+  <block id="90908cada5335b02e5364619b58b1a6f" category="list-text"><block ref="90908cada5335b02e5364619b58b1a6f" category="inline-link-macro-rx"></block></block>
+  <block id="1ab4c868d6a3f86ee4fb6e4cdcf6a0e9" category="paragraph">O servidor Model Context Protocol (MCP) do docs.netapp.com fornece uma camada de integração padronizada e pronta para agentes, posicionada à frente da documentação existente da NetApp e dos serviços de Geração Aumentada por Recuperação (RAG). Ele permite que agentes de IA interajam com o conhecimento técnico corporativo usando linguagem natural, sem exigir integração direta com a API REST ou desenvolvimento de pipelines personalizados.</block>
+  <block id="2a3b399798aa16ecfbc1425cc560bfad" category="section-title">Casos de uso</block>
+  <block id="d4476bb2dd8d082fae36932403baa832" category="paragraph">Ao fornecer acesso estruturado à documentação da NetApp, o servidor MCP docs.netapp.com/br/ permite que os agentes de IA:</block>
+  <block id="ceaa9d5786ef81fc0d823bb3452765d1" category="list-text">Descubra a documentação relevante</block>
+  <block id="877d64e2b73adeb38e6bb87e634d6832" category="list-text">Recupere todo o conteúdo do documento</block>
+  <block id="2cd23189b46407e642a7368e41be15b6" category="list-text">Gerar respostas com base na documentação (geração de respostas baseada em RAG)</block>
+  <block id="c660bf77124acf67b71f38ade239afe5" category="list-text">Produza respostas fundamentadas e verificáveis</block>
+  <block id="f29ddb4ec663cb6ad59a507e7d55e42e" category="paragraph">Você pode usar o servidor MCP docs.netapp.com da netapp.com/br/ para:</block>
+  <block id="5d45ef3bcd0bf29d5fb96d778cdf14fd" category="list-text">Aprimore ambientes de desenvolvimento orientados a agentes com conteúdo da NetApp.</block>
+  <block id="f86da1cbb22f902e52aa18eaee2f1aeb" category="list-text">Ofereça suporte à engenharia e aos fluxos de trabalho de suporte que precisam de documentação confiável.</block>
+  <block id="47d57946fde3dd47a58960c91bb0793e" category="list-text">Reduza a necessidade de criar e manter integrações personalizadas de pesquisa, recuperação ou RAG.</block>
+  <block id="6c39a27d5146ae031d8ebf7b69517fe8" category="list-text">Forneça respostas fundamentadas na documentação oficial da NetApp.</block>
+  <block id="5a5a5320c2f5cd0fa3faaf38a42b481d" category="section-title">Como funciona o servidor MCP do docs.netapp.com</block>
+  <block id="353f2b6ebfc957a2175ac50d69126df5" category="paragraph">O servidor MCP funciona como uma interface para a documentação oficial da NetApp e retorna respostas fundamentadas a partir do conteúdo publicado.</block>
+  <block id="e13ee7efbf9977f49c9e8513f0e4296e" category="list-text">O agente de IA envia uma solicitação ao servidor MCP.</block>
+  <block id="6c8c2e3e01cb22a68afa49fc586c57f4" category="list-text">O servidor MCP recupera a documentação relevante.</block>
+  <block id="b33b5068d9ca6daad925d8c59aa95d97" category="list-text">O sistema retorna uma resposta estruturada e fundamentada.</block>
+  <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">Requisitos</block>
+  <block id="eb24a8e1c473094e73637c7035efa009" category="list-text">É necessária uma chave de assinatura para acessar o servidor MCP. Para solicitar uma chave, entre em contato com ng-docs-mcp@netapp.com com uma breve descrição do seu caso de uso.</block>
+  <block id="6f9d04430e4950a348f25de6e4f0b624" category="list-text">Os clientes suportados incluem ambientes compatíveis com MCP, como Visual Studio Code com GitHub Copilot, Claude Desktop, Cursor e frameworks de agentes baseados em Python.</block>
+  <block id="64fb828e24870f101d9fff2fa7e89ddb" category="list-text">Você deve seguir os termos de uso da documentação aplicável da NetApp e as políticas de governança de acesso.</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">Limitações</block>
+  <block id="a7ac2140ef07c6023dd4985cbc29ed10" category="list-text">O servidor MCP consulta o conteúdo publicado em netapp.com/br/. Ele não acessa dados privados de locatários nem informações internas de perfil de usuário.</block>
+  <block id="c0d0dc2b2768aa4cac3ce786ed53ca70" category="list-text">O conteúdo se limita ao conteúdo publicado em docs.netapp.com e não substitui a telemetria do produto, o estado do cluster ou outras fontes de dados específicas do ambiente.</block>
+  <block id="0116743f3d7cd7c62f3bd7d8d7a49038" category="list-text">A qualidade da resposta pode ser afetada pela forma como o agente do cliente utiliza as ferramentas disponíveis e dá seguimento aos resultados da pesquisa.</block>
+  <block id="41df79761f89a5f1ca3a62ecff5212ad" category="list-text">O serviço é implantado sem estado em infraestrutura de nuvem escalável, então a latência e a atualização dependem da documentação downstream e dos serviços RAG.</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">Qual é o próximo passo?</block>
+  <block id="3ce3b3aa73145cbd6a9e75e2891c64a0" category="paragraph"><block ref="3ce3b3aa73145cbd6a9e75e2891c64a0" category="inline-xref-macro-rx"></block></block>
+  <block id="49374038ca53fa360c30df16dffbea40" category="sidebar">docs.netapp.com/br/ MCP server</block>
+  <block id="2f1a3e62508d88ddc31f1aa72a8334d4" category="sidebar">Aprenda</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Comece agora</block>
 </blocks>
