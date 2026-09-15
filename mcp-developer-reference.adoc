@@ -59,7 +59,7 @@ O servidor MCP do docs.netapp.com fornece um conjunto de ferramentas pequeno e e
 
 O servidor atualmente oferece as seguintes ferramentas:
 
-* `netapp_docs_ask`: Gera respostas fundamentadas em documentação usando um fluxo de trabalho de geração aprimorado por recuperação de informações.
+* `netapp_docs_ask`: Gera respostas derivadas do conteúdo publicado em docs.netapp.com usando um fluxo de trabalho de geração aprimorado por recuperação.
 * `netapp_docs_search`: Descobre páginas de documentação relevantes da NetApp usando palavra-chave e consultas em linguagem natural.
 * `netapp_docs_fetch`: Recupera o conteúdo estruturado de uma página de documentação ou artigo específico.
 * `health_check`: Valida a disponibilidade do servidor MCP.

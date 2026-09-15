@@ -14,7 +14,7 @@ summary:
 
 
 [role="lead"]
-Conecte seu ambiente de desenvolvimento de IA ao servidor do Protocolo de Contexto de Modelo (MCP) do docs.netapp.com. Depois de configurar o servidor MCP, use-o para retornar respostas fundamentadas da documentação publicada da NetApp.
+Conecte seu ambiente de desenvolvimento de IA ao servidor Model Context Protocol (MCP) do docs.netapp.com. Depois de configurar o servidor MCP, você pode usá-lo para retornar respostas derivadas da documentação técnica do produto publicada em docs.netapp.com.
 
 
 
@@ -37,9 +37,9 @@ Antes de configurar o servidor MCP docs.netapp.com, verifique o seguinte:
 Escolha a opção de configuração para o seu ambiente.
 
 * <<Configuração do Visual Studio Code>>
-* <<Integração de agente de IA em Python>>
 * <<Configuração do Claude Desktop>>
 * <<Configuração do cursor>>
+* <<Integração de agente de IA em Python>>
 
 
 
@@ -139,27 +139,6 @@ Quais são as diferenças entre o ONTAP e o Cloud Volumes ONTAP?
 
 
 
-[[python-ai-agent-integration]]
-=== Integração de agente de IA em Python
-
-Use esta opção se você estiver criando aplicativos ou agentes de IA que chamam diretamente o servidor MCP.
-
-Seu cliente se conecta ao endpoint do MCP e invoca as ferramentas.
-
-[source, python]
-----
-client = MCPClient("https://docs.netapp.com/mcp",
-  headers={
-          "Ocp-Apim-Subscription-Key": "<YOUR_API_KEY>"
-      }
-  )
-response = client.call_tool("netapp_docs_ask", {
-    "question": "What are ONTAP upgrade steps?"
-})
-
-----
-
-
 [[claude-desktop-configuration]]
 === Configuração do Claude Desktop
 
@@ -222,21 +201,42 @@ NOTE: Se o arquivo já tiver outros servidores MCP configurados, adicione  `neta
 ----
 
 
+[[python-ai-agent-integration]]
+=== Integração de agente de IA em Python
+
+Use esta opção se você estiver criando aplicativos ou agentes de IA que chamam diretamente o servidor MCP.
+
+Seu cliente se conecta ao endpoint do MCP e invoca as ferramentas.
+
+[source, python]
+----
+client = MCPClient("https://docs.netapp.com/mcp",
+  headers={
+          "Ocp-Apim-Subscription-Key": "<YOUR_API_KEY>"
+      }
+  )
+response = client.call_tool("netapp_docs_ask", {
+    "question": "What are ONTAP upgrade steps?"
+})
+
+----
+
+
 [[use-the-docs-netapp-com-mcp-server]]
 == Use o servidor MCP do docs.netapp.com
 
-Após configurar o servidor MCP, você pode interagir com a documentação técnica da NetApp diretamente no Visual Studio Code ou na interface do cliente.
+Após configurar o servidor MCP, você pode interagir com a documentação técnica da NetApp diretamente na interface do cliente de sua preferência.
 
 .Sobre esta tarefa
 * O cliente de IA escolhe a ferramenta apropriada para fornecer resultados com base na sua consulta.
 * Use perguntas claras e completas em vez de consultas curtas ou vagas.
-* As respostas são sempre baseadas na documentação oficial da NetApp.
+* As respostas são sempre derivadas da documentação oficial da NetApp.
 
 
 .Passos
 . Abra o chat no seu cliente compatível com MCP.
 . Invoque o servidor MCP configurado e faça uma pergunta clara sobre os produtos ou procedimentos da NetApp.
-. Analise a resposta fundamentada.
+. Revise a resposta.
 
 
 .Informações relacionadas
